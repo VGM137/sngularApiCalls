@@ -1,0 +1,65 @@
+h3{
+  margin: 5px;
+}
+.card-container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: white;
+}
+.card-photo{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 20px auto 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card-photo img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-photo{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin: 20px auto 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-photo img{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+.card-info{
+  margin: 0 10px 15px;
+  overflow: hidden;
+}
+.Gryffindor{
+  background-color: #6c0c17;
+}
+.Slytherin{
+  background-color: #1b6354;
+}
+.Hufflepuff{
+  background-color: #edad08;
+}
+.Ravenclaw{
+  background-color: #0c5587;
+}
+.card-bg{
+  background-color: black;
+}

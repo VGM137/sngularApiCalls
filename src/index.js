@@ -4,9 +4,11 @@ import { Provider } from "react-redux";
 import { createStore, compose } from "redux";
 import reducer from "./reducers";
 import { App } from "./routes/App";
+import './assets/styles/App.css'
 
 const initialState = {
-  "state": ''
+  "houseFilter": 'Howarts',
+  "textFilter": ''
 }
 
 const composeEnhacer = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()

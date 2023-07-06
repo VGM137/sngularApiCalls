@@ -1,0 +1,21 @@
+.display-characters{
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 425px) {
+  .display-characters{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 590px) {
+  .display-characters{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 780px) {
+  .display-characters{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
