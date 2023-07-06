@@ -8,7 +8,7 @@ export const Display = ({characters}) => {
 
   const [renderChars, setRenderChars] = useState([])
   let currentHouse = useSelector(state => state.houseFilter)
-  let search = useSelector(state => state.textFilter)
+  let search = useSelector(state => state.textFilter.toLowerCase())
 
   useEffect(() => {
     filterCharacters(currentHouse, search)
